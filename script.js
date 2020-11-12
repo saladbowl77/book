@@ -4,6 +4,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
         document.getElementsByTagName('head')[0].appendChild(link);
     }
 });
+/*
 window.onload = (event) => {
     window.scroll(0, 0);
 };
+*/
