@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;600&display=swap');
-html, body, main, p, a{margin: 0; padding: 0;}
-html {overflow-y: hidden;}
+html,body,main,header,footer,div,h1,h2,h3,p,a{margin: 0; padding: 0;}
+html {
+    overflow-x : scroll;
+    overflow-y : hidden;
+}
 body {
     font-family: 'Noto Serif JP', "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "MS P明朝", "MS 明朝", serif;
     font-size: 16px;
