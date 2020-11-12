@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;600&display=swap');
 html, body, main, p, a{margin: 0; padding: 0;}
+html {overflow-y: hidden;}
 body {
-    font-family:  "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "MS P明朝", "MS 明朝", serif;
+    font-family: 'Noto Serif JP', "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "MS P明朝", "MS 明朝", serif;
     font-size: 16px;
     line-height: 1.6;
     background-color: white;
@@ -19,9 +21,9 @@ span.upright {
 }
 #bookData,footer {text-align: right;}
 p#end {text-align: right; font-size: 1.2rem; font-weight: 600;}
-h1 {font-size: 2rem; margin: 10px 10px; color: #000002;}
-h2 {font-size: 1.3rem; margin: 10px 5px; color: #000002;}
+h1 {font-weight: 600; font-size: 2rem; margin: 10px 10px; color: #000002;}
+h2 {font-weight: 600; font-size: 1.3rem; margin: 10px 5px; color: #000002;}
 a {color: #4183C4; 	text-align: right;}
-p {margin: 30px 10px; color: #000002;}
+p {font-weight: 500; margin: 30px 10px; color: #000002;}
 p span.text {font-size: 1.1rem; display: block; width: 100%; line-height: 2rem;}
-span.m {font-weight: 600;}
+span.m {font-weight: 600; font-size: 1.15rem;}
