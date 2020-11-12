@@ -29,3 +29,6 @@ a {color: #4183C4; 	text-align: right;}
 p {font-weight: 500; margin: 30px 10px; color: #000002;}
 p span.text {font-size: 1.1rem; display: block; width: 100%; line-height: 2rem;}
 span.m {font-weight: 600; font-size: 1.15rem;}
+.images, .images1 {text-align: center; margin: 0 10px;}
+.images img {height: 30%;}
+.images1 img {height: 70%;}
