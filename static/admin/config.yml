@@ -9,9 +9,6 @@ locale: 'ja' #メッセージが日本語化
 media_folder: "./static/img" # 画像ファイルの格納場所を指定
 public_folder : "/img" #公開する際の画像フォルダのパスを指定
 
-# NetlifyCMSの編集画面をフロー化
-publish_mode: editorial_workflow
-
 # 編集オブジェクト
 collections:
   - name: "Book" 
