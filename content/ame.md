@@ -2,7 +2,7 @@
 title: 雨
 slug: ame
 date: 2021-06-30T10:22:47.529Z
-UndecoratedPoetry: "false"
+UndecoratedPoetry: "true"
 ---
 雨だ
 
