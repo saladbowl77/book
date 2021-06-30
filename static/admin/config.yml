@@ -17,12 +17,13 @@ collections:
     label: "Book"
     folder: "content/"
     create: true
-    slug: "{{fields.slug}}" #ファイル名になる
+    slug: "{{slug}}" #ファイル名になる
     editor:
       preview: true #CMSの編集画面にプレビューがつく
     # コレクションのフィールド
     fields:
           - {label: "タイトル", name: "title", widget: "string"}
-          - {label: "url名", name: "slug", widget: "string", default: "default-slug"}
+          - {label: "url名", name: "slug", widget: "string"}
           - {label: "公開日", name: "date", widget: "datetime"}
+          - {label: "原作か", name: "UndecoratedPoetry", widget: "select", options: [true, false]}
           - {label: "本文", name: "body", widget: "text"}
