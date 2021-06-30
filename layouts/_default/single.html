@@ -4,7 +4,9 @@
   <div id="bookData">
     {{ if .Params.UndecoratedPoetry }}
       <h2>作:<a href="https://twitter.com/riku_2004">お餅</a></h2>
-    {{else}}
+    {{else if .Params.UndecoratedPoetry == "true" }}
+      <h2>作:<a href="https://twitter.com/riku_2004">お餅</a></h2>
+    {{ else }}
       <h2>原案:<a href="https://twitter.com/riku_2004">お餅</a></h2>
     {{ end }}
   </div>
