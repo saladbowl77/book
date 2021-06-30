@@ -17,7 +17,7 @@ collections:
     label: "Book"
     folder: "content/"
     create: true
-    slug: "{{slug}}" #ファイル名になる
+    slug: "{{fields.slug}}" #ファイル名になる
     editor:
       preview: true #CMSの編集画面にプレビューがつく
     # コレクションのフィールド
