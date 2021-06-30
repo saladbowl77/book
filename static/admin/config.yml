@@ -1,6 +1,8 @@
 # GitHubのブランチ指定
 backend:
   name: git-gateway
+  accept_roles:
+    - admin
   branch: master 
 locale: 'ja' #メッセージが日本語化
 media_folder: "./static/img" # 画像ファイルの格納場所を指定
