@@ -2,6 +2,7 @@
 title: 君の瞳
 slug: your-i
 date: 2021-06-29T15:00:44.947Z
+UndecoratedPoetry: "false"
 ---
 いつしか僕は心を忘れてしまったみたいだ
 
