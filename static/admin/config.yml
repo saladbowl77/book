@@ -1,7 +1,6 @@
 # GitHubのブランチ指定
 backend:
-  name: github
-  repo: saladbowl77/book
+  name: git-gateway
   accept_roles:
     - admin
   branch: master 
