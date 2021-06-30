@@ -1,0 +1,20 @@
+{{ partial "header" . }}
+<header>
+  <h1>{{ .Title }}</h1>
+  <div id="bookData">
+    {{ if .Params.UndecoratedPoetry }}
+      <h2>作:<a href="https://twitter.com/riku_2004">お餅</a></h2>
+    {{else}}
+      <h2>原案:<a href="https://twitter.com/riku_2004">お餅</a></h2>
+    {{ end }}
+  </div>
+</header>
+<main>
+  {{ .Content }}
+</main>
+<footer>
+  <p>&copy;お餅</p>
+  <p><a href="/"><span class="upright">Top</span>に戻る</a></p>
+  <p><a href="https://twitter.com/intent/tweet?text=｢{{ .Title }}｣を読みました。https://noname-life.com{{ .RelPermalink }} あなたはこの小説を読んでどう思ったでしょう?あなたが見つけた小説で、あなたの人生が少しでもいい方向へ傾くことを願っています。">このページをTwitterで共有する</a></p>
+</footer>
+{{ partial "footer" . }}

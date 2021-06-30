@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" {{ with .Site.LanguageCode }} lang="{{ . }}"{{ end }}>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{ if eq .IsHome false }}
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+  <meta property='og:title' content="{{ .Title }} - {{ .Site.Title }}">
+  <meta property='og:url' content="https://noname-life.com/snowy-autumn-up/">
+  {{ else }}
+  <title>{{ .Site.Title }}</title>
+  <meta property='og:title' content="{{ .Site.Title }}トップページ">
+  <meta property='og:url' content="https://noname-life.com/">
+  {{ end }}
+  <meta property='og:type' content='
+    {{- if .IsPage -}}
+      article
+    {{- else -}}
+      website
+    {{- end -}}
+  '>
+
+  <script src="/script.min.js"></script>
+  <link rel="stylesheet" href="/style.css">
+
+  <meta property='og:description' content="あなたの心に届く文章をいつか作れればいいなと思います。">
+  <meta property='og:url' content='{{ .Permalink }}'>
+  <meta property='og:site_name' content="「無題」">
+  <meta name="twitter:description" content="あなたの心に届く文章をいつか作れればいいなと思います。">
+  <meta name="description" content="あなたの心に届く文章をいつか作れればいいなと思います。">
+  <meta name="Keywords" content="小説, 物語, 詩, ポエム">
+</head>
+<body>

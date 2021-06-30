@@ -1,0 +1,17 @@
+{{ partial "header" . }}
+<header>
+  <h1>HelloWorld</h1>
+</header>
+<main>
+  <h3>小説一覧</h3>
+  <ul>
+    {{- range .Paginator.Pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{- end }}
+  </ul>
+  <h3>このサイトについて</h3>
+  <p>このサイトは縦書きで小説が書かれています。ただそれだけです。では、お楽しみください。</p>
+  <p>作品が良いと思ったなら是非シェアをお願いします。</p>
+  <a href="https://twitter.com/intent/tweet?text=「無題」のサイトにアクセスしました。https://noname-life.com/ あなたが見つけた小説で、あなたの人生が少しでもいい方向へ傾くことを願っています。">このページをTwitterで共有する</a>
+</main>
+{{ partial "footer" . }}
