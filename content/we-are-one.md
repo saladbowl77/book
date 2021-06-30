@@ -1,7 +1,8 @@
 ---
 title: "行く先"
 date: 2021-01-07T00:00:00+09:00
-draft: true
+draft: false
+UndecoratedPoetry : true
 ---
 もう大丈夫だよって手を差し伸べてくれた人がいた。
 
