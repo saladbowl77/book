@@ -33,3 +33,6 @@ HUGO_ENABLEGITINFO = "true"
   for = "/index.xml"
     [headers.values]
         Access-Control-Allow-Origin = "*"
+
+[minify]
+ disableJSON = true
