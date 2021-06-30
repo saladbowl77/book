@@ -11,6 +11,10 @@
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <style>
         @media (max-width: 799px) {
+            span.Resizer.vertical,
+            div.Pane.vertical.Pane2 {display: none;}
+            div.Pane.vertical.Pane1 {width: 100%;}
+
             .css-1gj57a0-SidebarContainer-card {
                 position: static;
                 width: 100%;
@@ -99,11 +103,11 @@
             .css-osnbqe-ToolbarToggle {
                 flex-direction: column;
             }
-            /* End Blog */
 
             span.Resizer.vertical,
             div.Pane.vertical.Pane2 {display: none;}
             div.Pane.vertical.Pane1 {width: 100%;}
+            /* End Blog */
         }
     </style>
 </body>
