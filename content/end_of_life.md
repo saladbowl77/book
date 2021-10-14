@@ -4,7 +4,7 @@ slug: End_of_life
 date: 2021-10-14T18:22:21.581Z
 UndecoratedPoetry: "true"
 ---
-「死にたくない」
+「消えたくない」
 
 そう言いながら嗚咽する君の声は
 
