@@ -1,7 +1,7 @@
 ---
 title: 拝啓、私の心の拠り所へ
 slug: goodbye
-date: 2021-08-22T16:51:34.816Z
+date: 2024-12-31T16:38:20.683Z
 UndecoratedPoetry: "true"
 ---
 これは、まぁ
